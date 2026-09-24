@@ -1,0 +1,125 @@
+OmniControl
+Proprietary Software License
+
+Copyright (c) 2026 the OmniControl authors (ops-software).
+All rights reserved.
+
+The OmniControl software is licensed, not sold. By downloading, installing or
+using it, you agree to the terms below. If you do not agree, do not download,
+install or use the software.
+
+1. Definitions
+
+"Software" means the OmniControl program in every form in which it is made
+available, including installers, packages, updates, the bundled runtime, any
+source code, scripts or data files contained in a package, and the related
+documentation.
+
+"Licensor" means the OmniControl authors (ops-software).
+
+"You" means the person or organization that downloads, installs or uses the
+Software.
+
+2. License grant
+
+Subject to your compliance with this license, the Licensor grants you a
+limited, personal, non-exclusive, non-transferable, non-sublicensable and
+revocable license to install and run the Software on computers that you own
+or control, for your own use or for the internal use of your organization.
+
+You may make the copies strictly needed to install the Software and to keep a
+backup of it. Every copy must keep this license and all notices.
+
+3. Restrictions
+
+Unless the Licensor has agreed otherwise in writing, you may not:
+
+  a) redistribute, publish, share, sell, rent, lease, lend or sublicense the
+     Software, or otherwise make it available to anyone else;
+  b) use the Software commercially beyond the internal use allowed in
+     section 2, including offering it or its functions to others as a product
+     or as a hosted service, or reselling access to it;
+  c) decompile, disassemble or reverse engineer the Software, or attempt to
+     derive its source code, except to the extent that applicable law
+     expressly permits it despite this limitation;
+  d) copy, extract, study for reuse, or reuse any source code, script or data
+     file contained in the Software for any purpose other than running the
+     Software as delivered;
+  e) modify, adapt, translate or create derivative works of the Software;
+  f) remove, alter or hide any copyright, license or proprietary notice;
+  g) bypass, disable or interfere with the verification of updates or any
+     other technical protection of the Software.
+
+4. Parts delivered in readable form
+
+Some parts of the Software may be delivered in human-readable form, such as
+source code or scripts that the Software needs in order to run. This is a
+technical choice only. Those parts remain confidential and proprietary to the
+Licensor, are covered by this license, and grant you no additional right.
+
+5. Third-party components and services
+
+The Software includes components made by third parties, such as the Node.js
+runtime and open source libraries. Each of them is licensed under its own
+terms, which apply to that component. Nothing in this license limits the
+rights those terms give you for those components.
+
+The Software can connect to AI services and other services that you choose
+and that you access with your own accounts or keys. Your use of those services
+is governed by their terms. The Licensor is not responsible for them.
+
+6. Updates
+
+The Software may check for, download and install updates published by the
+Licensor. Updates are part of the Software and are covered by this license,
+unless they come with different terms.
+
+7. Ownership
+
+The Software is protected by copyright and other intellectual property laws.
+The Licensor keeps all right, title and interest in and to the Software. No
+right is granted except those expressly granted in this license. This license
+does not grant any right to use the OmniControl name or logos.
+
+8. Termination
+
+This license ends automatically if you breach any of its terms. When it ends,
+you must stop using the Software and delete every copy in your possession.
+Sections 3, 4, 7, 9, 10 and 11 survive termination.
+
+9. No warranty
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, THE SOFTWARE IS PROVIDED
+"AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED,
+INCLUDING WITHOUT LIMITATION THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, ACCURACY AND NON-INFRINGEMENT. YOU USE THE SOFTWARE AT
+YOUR OWN RISK.
+
+10. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL THE
+LICENSOR BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL OR
+PUNITIVE DAMAGES, OR FOR ANY LOSS OF DATA, PROFITS, REVENUE OR BUSINESS,
+ARISING OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THIS LICENSE, EVEN IF
+ADVISED OF THE POSSIBILITY OF SUCH DAMAGES.
+
+Nothing in this license excludes or limits any liability that cannot be
+excluded or limited under applicable law, including mandatory consumer
+protection law.
+
+11. General
+
+If any provision of this license is held unenforceable, the rest remains in
+effect. This license is the entire agreement between you and the Licensor
+about the Software, unless you have a separate written agreement with the
+Licensor. If this license is translated, the English text prevails.
+
+
+Sintesi in italiano
+(solo informativa: fa fede il testo inglese)
+
+- OmniControl è concesso in uso, non venduto: tutti i diritti restano agli autori.
+- Puoi installarlo e usarlo sui computer che controlli, per te o per l'uso interno della tua organizzazione.
+- Non puoi ridistribuirlo, rivenderlo, offrirlo ad altri come servizio, modificarlo, decompilarlo o riusarne il codice, nemmeno le parti leggibili.
+- È fornito così com'è, senza garanzie, nei limiti consentiti dalla legge.
+- I componenti di terzi inclusi seguono le loro licenze; i servizi AI che colleghi seguono le loro condizioni.

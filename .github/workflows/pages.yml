@@ -1,0 +1,60 @@
+# Publishes the showcase on GitHub Pages.
+# site/ is written only by the site workflow of the private repository (deploy key).
+# updates/ is written only by the release. Both land here with a plain push to main,
+# and a push made with a deploy key does trigger this workflow.
+name: pages
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "site/**"
+      - "updates/**"
+      - ".github/workflows/pages.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+
+      - name: Assemble _site (site/ at the root, updates/ as a subfolder)
+        run: |
+          mkdir _site
+          cp -R site/. _site/
+          mkdir -p _site/updates
+          if [ -d updates ]; then cp -R updates/. _site/updates/; fi
+          touch _site/.nojekyll
+          test -f _site/index.html
+
+      - name: Configure Pages
+        uses: actions/configure-pages@45bfe0192ca1faeb007ade9deae92b16b8254a0d # v6.0.0
+
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: _site
+          # v5 drops dotfiles unless asked; keep .nojekyll and any .well-known/ from site/.
+          # .git and .github are excluded regardless.
+          include-hidden-files: true
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
