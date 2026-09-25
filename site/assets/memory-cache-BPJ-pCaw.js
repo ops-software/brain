@@ -1,1 +1,0 @@
-import{n as e,r as t,t as n}from"./graph-BSe2BrWw.js";var r=new Map;function i(i,a,o){let s=a?n.coarse:n.fine,c=`${i}:${s}`,l=r.get(c);return l||(l=t({seed:e,count:s,locale:i,sections:o}),r.set(c,l)),l}export{i as memoryFor};
