@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://ops-software.github.io/omnicontrol/</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/omnicontrol/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/omnicontrol/en/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/omnicontrol/" />
+    <loc>https://ops-software.github.io/brain/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/brain/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/" />
   </url>
   <url>
-    <loc>https://ops-software.github.io/omnicontrol/en/</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/omnicontrol/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/omnicontrol/en/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/omnicontrol/" />
+    <loc>https://ops-software.github.io/brain/en/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/brain/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/" />
   </url>
   <url>
-    <loc>https://ops-software.github.io/omnicontrol/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/omnicontrol/privacy/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/omnicontrol/en/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/omnicontrol/privacy/" />
+    <loc>https://ops-software.github.io/brain/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/brain/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/privacy/" />
   </url>
   <url>
-    <loc>https://ops-software.github.io/omnicontrol/en/privacy/</loc>
-    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/omnicontrol/privacy/" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/omnicontrol/en/privacy/" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/omnicontrol/privacy/" />
+    <loc>https://ops-software.github.io/brain/en/privacy/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/brain/privacy/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/privacy/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/privacy/" />
   </url>
 </urlset>

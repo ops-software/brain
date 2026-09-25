@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://ops-software.github.io/omnicontrol/sitemap.xml
+Sitemap: https://ops-software.github.io/brain/sitemap.xml
