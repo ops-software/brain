@@ -1,0 +1,9 @@
+<svg viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="OmniControl">
+  <rect width="512" height="512" fill="#000000"/>
+  <g fill="none" stroke="#ffffff" stroke-width="34" stroke-linecap="square" stroke-linejoin="miter">
+    <!-- '<' chevron: top-right -> left apex -> bottom-right (pulled left for a clear gap) -->
+    <path d="M216 150 L120 256 L216 362"/>
+    <!-- '/' slash: bottom-left -> top-right (pushed right so the two glyphs read as '< /') -->
+    <path d="M296 362 L392 150"/>
+  </g>
+</svg>

@@ -1,0 +1,1 @@
+import{a as e,i as t,n,o as r,r as i,t as a}from"./layout-CInzeVi1.js";function o(e,t){if(typeof Proxy>`u`)return r;let n=new Map,i=(n,i)=>r(n,i,e,t);return new Proxy((e,t)=>i(e,t),{get:(a,o)=>o===`create`?i:(n.has(o)||n.set(o,r(o,void 0,e,t)),n.get(o))})}var s=o(),c=o({...t,...n,...i,...a},e),l=s;export{c as n,l as t};
