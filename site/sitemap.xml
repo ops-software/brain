@@ -24,4 +24,16 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/privacy/" />
     <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/privacy/" />
   </url>
+  <url>
+    <loc>https://ops-software.github.io/brain/termini/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/brain/termini/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/termini/" />
+  </url>
+  <url>
+    <loc>https://ops-software.github.io/brain/en/terms/</loc>
+    <xhtml:link rel="alternate" hreflang="it" href="https://ops-software.github.io/brain/termini/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://ops-software.github.io/brain/en/terms/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://ops-software.github.io/brain/termini/" />
+  </url>
 </urlset>
